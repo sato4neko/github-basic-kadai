@@ -1,0 +1,20 @@
+umeharasatoshi@umeharasatoshinoMacBook-Air ~ % mkdir git_challenge
+umeharasatoshi@umeharasatoshinoMacBook-Air ~ % git init
+Reinitialized existing Git repository in /Users/umeharasatoshi/.git/
+umeharasatoshi@umeharasatoshinoMacBook-Air ~ % cd git_challenge
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/umeharasatoshi/git_challenge/.git/
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % git add hello_world
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % git commit -m "hello_world.textを追加"        
+
+[main (root-commit) dcfd6b0] hello_world.textを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % git add hello_world
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % git commit -m "日本語訳を追加"
+[main 330edad] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % git log --oneline
+330edad (HEAD -> main) 日本語訳を追加
+dcfd6b0 hello_world.textを追加
+umeharasatoshi@umeharasatoshinoMacBook-Air git_challenge % 
